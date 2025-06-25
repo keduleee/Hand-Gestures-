@@ -2,6 +2,7 @@
 🧭 Overview
 
 This project presents a **real-time gesture recognition system** that allows users to control desktop applications using **hand gestures** captured from a webcam. It is built with **Python**, using **OpenCV** and **MediaPipe**
+
 📊 Hand Gestures
 
 The system supports gesture recognition such as:
