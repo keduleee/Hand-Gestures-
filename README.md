@@ -1,8 +1,7 @@
 ✋ Control Applications Using Hand Gestures with Python and Computer Vision  
 🧭 Overview
 
-This project presents a **real-time gesture recognition system** that allows users to control desktop applications using **hand gestures** captured from a webcam. It is built with **Python**, using **OpenCV** and **MediaPipe**, and can be compiled into a standalone `.exe` application 
-
+This project presents a **real-time gesture recognition system** that allows users to control desktop applications using **hand gestures** captured from a webcam. It is built with **Python**, using **OpenCV** and **MediaPipe**
 📊 Hand Gestures
 
 The system supports gesture recognition such as:
