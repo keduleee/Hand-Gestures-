@@ -1,14 +1,13 @@
+**Control Applications Using Hand Gestures with Python and Computer Vision**
 
-# ✋ **Control Applications Using Hand Gestures with Python and Computer Vision**
-
-## 🧭 Overview
+Overview
 
 This project presents a **real-time gesture recognition system** that allows users to control desktop applications using **hand gestures** captured from a webcam.  
 It is built with **Python**, using **OpenCV**, **MediaPipe**, and **PyAutoGUI**.
 
 ---
 
-## 📊 Hand Gestures
+Hand Gestures
 
 The system supports gesture recognition such as:
 
@@ -18,18 +17,8 @@ The system supports gesture recognition such as:
 - 🤟 **Three fingers** → Open Microsoft Excel  
 - ✌️✌️ **Four fingers** → Open Microsoft Word
 
----
 
-## 🧠 System Architecture
-
-- 📷 Webcam input using OpenCV  
-- 🤖 Hand detection & landmark tracking using MediaPipe  
-- ✋ Custom logic to count fingers  
-- ⚙️ System automation using PyAutoGUI  
-
----
-
-## 🧪 Sample Results
+ Sample Results
 
 - Detected 5 fingers → ✅ Opened Notepad  
 - Detected 4 fingers → ✅ Opened Microsoft Word  
@@ -38,8 +27,7 @@ The system supports gesture recognition such as:
 - Detected 0 fingers → ✅ Closed all apps (Notepad, Word, Excel, Calculator)
 
 ---
-
-## ⚙️ How to Use
+ How to Use
 
 1. Clone this repository:
    ```bash
@@ -67,7 +55,7 @@ The system supports gesture recognition such as:
    | 0            | Close all running apps      |
 
 
-🗂️ Common App Commands
+Common App Commands
 
    | Application   | Open Command     | Close Command                       |
    | ------------- | ---------------- | ----------------------------------- |
@@ -76,11 +64,6 @@ The system supports gesture recognition such as:
    | Paint         | `start mspaint`  | `taskkill /im mspaint.exe /f`       |
    | File Explorer | `start explorer` | *Not recommended to close manually* |
    | WordPad       | `start wordpad`  | `taskkill /im wordpad.exe /f`       |
+ Make sure the application is installed and accessible via command line (start) before using it.
 
-💡 Make sure the application is installed and accessible via command line (start) before using it.
 
-## 🙌 Acknowledgements
-
-- [MediaPipe](https://mediapipe.dev)
-- [OpenCV](https://opencv.org)
-- [PyAutoGUI](https://pyautogui.readthedocs.io)
