@@ -67,6 +67,17 @@ The system supports gesture recognition such as:
    | 0            | Close all running apps      |
 
 
+🗂️ Common App Commands
+
+   | Application   | Open Command     | Close Command                       |
+   | ------------- | ---------------- | ----------------------------------- |
+   | Google Chrome | `start chrome`   | `taskkill /im chrome.exe /f`        |
+   | Spotify       | `start spotify`  | `taskkill /im spotify.exe /f`       |
+   | Paint         | `start mspaint`  | `taskkill /im mspaint.exe /f`       |
+   | File Explorer | `start explorer` | *Not recommended to close manually* |
+   | WordPad       | `start wordpad`  | `taskkill /im wordpad.exe /f`       |
+
+💡 Make sure the application is installed and accessible via command line (start) before using it.
 
 ## 🙌 Acknowledgements
 
