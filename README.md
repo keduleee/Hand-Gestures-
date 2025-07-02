@@ -66,13 +66,7 @@ The system supports gesture recognition such as:
    | 2            | Open Calculator             |
    | 0            | Close all running apps      |
 
----
 
-## 🧾 License
-
-This project is licensed under the MIT License.
-
----
 
 ## 🙌 Acknowledgements
 
